@@ -55,13 +55,13 @@ driver.findElement(By.xpath("//div[@id='sidebar_reports_button']")).click();
 	    Thread.sleep(2000);
 	driver.findElement(By.id("firstName_text")).sendKeys("TestNG");
 	    Thread.sleep(2000);
-	driver.findElement(By.id("lastName_text")).sendKeys("Nine");
+	driver.findElement(By.id("lastName_text")).sendKeys("Ten");
 	
 	   Thread.sleep(2000);
-	driver.findElement(By.id("email_email")).sendKeys("testngnine@yopmail.com");
+	driver.findElement(By.id("email_email")).sendKeys("testngten@tenopmail.com");
 	   Thread.sleep(1000);
 	
-   driver.findElement(By.id("employeeMobile_number")).sendKeys("9600000000");
+   driver.findElement(By.id("employeeMobile_number")).sendKeys("9610000000");
    
    Thread.sleep(2000);
 
@@ -117,13 +117,13 @@ driver.findElement(By.xpath("//div[@id='sidebar_reports_button']")).click();
 	driver.findElement(By.xpath("//button[@id='addEmployee_button']")).click();
 	  Thread.sleep(2000);
 	
-	driver.findElement(By.id("lastName_text")).sendKeys("Four");
+	driver.findElement(By.id("lastName_text")).sendKeys("Eleven");
 	
 	   Thread.sleep(2000);
-	driver.findElement(By.id("email_email")).sendKeys("testngten@yopmail.com");
+	driver.findElement(By.id("email_email")).sendKeys("testngeleven@yopmail.com");
 	   Thread.sleep(1000);
 	
-   driver.findElement(By.id("employeeMobile_number")).sendKeys("9110000000");
+   driver.findElement(By.id("employeeMobile_number")).sendKeys("9620000000");
    
    Thread.sleep(2000);
 

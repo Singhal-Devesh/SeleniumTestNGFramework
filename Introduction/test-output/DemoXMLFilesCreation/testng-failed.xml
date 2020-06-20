@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DemoXMLFilesCreation]">
+  <test thread-count="5" name="demoxml(failed)">
+    <classes>
+      <class name="ParameterWithTestNGXML">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyOne"/>
+        </methods>
+      </class> <!-- ParameterWithTestNGXML -->
+    </classes>
+  </test> <!-- demoxml(failed) -->
+</suite> <!-- Failed suite [DemoXMLFilesCreation] -->

@@ -6,7 +6,9 @@
       <class name="ParameterWithTestNGXML">
         <methods>
           <include name="tearDown"/>
+          <include name="verifyTwo"/>
           <include name="setUp"/>
+          <include name="verifyThree"/>
           <include name="verifyOne"/>
         </methods>
       </class> <!-- ParameterWithTestNGXML -->
